@@ -2,84 +2,168 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="أنْتيكا ومقتنيات - بيع وشراء وصيانة النحاسيات والتحف النحاسية">
-  <title>أنْتيكا ومقتنيات | النحاسيات والتحف</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#3b2a1f">
+  <meta name="description" content="أنتيكا ومقتنيات — بيع وشراء وصيانة جميع أنواع النحاسيات والتحف النحاسية بخبرة واهتمام بالتفاصيل.">
+  <title>أنتيكا ومقتنيات | النحاسيات والتحف النحاسية</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="hero">
-  <div class="container">
-    <div class="badge">أنْتيكا ومقتنيات</div>
-    <h1>النحاسيات والتحف النحاسية</h1>
-    <p>متخصصون في بيع وشراء وصيانة جميع أنواع النحاسيات والتحف النحاسية، بخبرة واهتمام بالتفاصيل.</p>
-    <div class="actions">
-      <a class="btn primary" href="tel:0785494911">📞 اتصل الآن</a>
-      <a class="btn secondary" href="#products">🛍️ شاهد البضاعة</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="أنتيكا ومقتنيات">
+        <span class="brand-mark">✦</span>
+        <span>أنتيكا ومقتنيات</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">الرئيسية</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#gallery">المقتنيات</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
     </div>
-  </div>
-</header>
+  </header>
 
-<section class="contact">
-  <div class="container contact-box">
-    <div>
-      <span>للتواصل والاستفسار</span>
-      <strong>0785494911</strong>
-    </div>
-    <a class="phone" href="tel:0785494911">اتصال مباشر</a>
-  </div>
-</section>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">أنتيكا ومقتنيات</div>
+        <h1>النحاسيات<br><span>والتحف النحاسية</span></h1>
+        <p>
+          متخصصون في بيع وشراء وصيانة جميع أنواع النحاسيات
+          والتحف النحاسية، بخبرة واهتمام بالتفاصيل.
+        </p>
 
-<main>
-  <section id="products" class="section">
-    <div class="container">
-      <h2>البضاعة والمقتنيات</h2>
-      <p class="section-text">يمكنك إضافة صور القطع والبضائع هنا لاحقًا.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:0785494911">📞 اتصل الآن</a>
+          <a class="btn btn-light" href="#gallery">🛍️ شاهد المقتنيات</a>
+        </div>
 
-      <div class="products">
-        <article class="product">
-          <div class="placeholder">صورة المنتج</div>
-          <h3>تحف نحاسية</h3>
-          <p>قطع وتحف نحاسية متنوعة.</p>
-        </article>
-
-        <article class="product">
-          <div class="placeholder">صورة المنتج</div>
-          <h3>نحاسيات قديمة</h3>
-          <p>مقتنيات وتحف ذات طابع تراثي.</p>
-        </article>
-
-        <article class="product">
-          <div class="placeholder">صورة المنتج</div>
-          <h3>صيانة النحاسيات</h3>
-          <p>تنظيف وصيانة وتجديد القطع النحاسية.</p>
-        </article>
+        <div class="hero-note">
+          <span>✓</span> عناية بالتفاصيل &nbsp;•&nbsp;
+          <span>✓</span> خبرة &nbsp;•&nbsp;
+          <span>✓</span> قطع مميزة
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section services">
-    <div class="container">
-      <h2>خدماتنا</h2>
-      <div class="service-grid">
-        <div>🛒 <b>بيع</b><br><span>نحاسيات وتحف متنوعة</span></div>
-        <div>🤝 <b>شراء</b><br><span>شراء القطع والمقتنيات</span></div>
-        <div>🔧 <b>صيانة</b><br><span>صيانة وتنظيف النحاسيات</span></div>
+    <section class="quick-contact" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-icon">☎</div>
+          <div class="contact-copy">
+            <span>للتواصل والاستفسار</span>
+            <a href="tel:0785494911" class="phone">0785494911</a>
+          </div>
+          <a class="contact-btn" href="tel:0785494911">اتصال مباشر</a>
+        </div>
       </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">ما نقدمه</span>
+          <h2>خدماتنا</h2>
+          <p>خدمة احترافية للنحاسيات والتحف والمقتنيات القديمة.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <div class="service-icon">🪙</div>
+            <h3>بيع النحاسيات</h3>
+            <p>تشكيلة من القطع النحاسية والتحف والمقتنيات المميزة.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">02</div>
+            <div class="service-icon">🤝</div>
+            <h3>شراء المقتنيات</h3>
+            <p>نشتري النحاسيات والتحف والمقتنيات القديمة ونقيّم القطع بعناية.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <div class="service-icon">✨</div>
+            <h3>الصيانة والعناية</h3>
+            <p>صيانة وتنظيف وعناية بالقطع النحاسية مع الاهتمام بتفاصيلها.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">مختاراتنا</span>
+          <h2>البضاعة والمقتنيات</h2>
+          <p>يمكنك إضافة صور القطع والبضائع هنا لاحقًا.</p>
+        </div>
+
+        <div class="gallery" id="galleryGrid">
+          <article class="product-card">
+            <div class="product-image"><span>صورة القطعة</span></div>
+            <div class="product-info">
+              <h3>قطعة نحاسية مميزة</h3>
+              <p>للاستفسار عن القطعة</p>
+              <a href="tel:0785494911">اتصل الآن</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image"><span>صورة القطعة</span></div>
+            <div class="product-info">
+              <h3>تحفة نحاسية</h3>
+              <p>للاستفسار عن القطعة</p>
+              <a href="tel:0785494911">اتصل الآن</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image"><span>صورة القطعة</span></div>
+            <div class="product-info">
+              <h3>مقتنى تراثي</h3>
+              <p>للاستفسار عن القطعة</p>
+              <a href="tel:0785494911">اتصل الآن</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <span class="section-kicker">هل لديك قطعة؟</span>
+            <h2>تواصل معنا للاستفسار أو البيع والشراء</h2>
+            <p>يسعدنا الرد على استفساراتك ومساعدتك.</p>
+          </div>
+          <a class="btn btn-primary" href="tel:0785494911">📞 0785494911</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>أنتيكا ومقتنيات</strong>
+        <span>النحاسيات والتحف النحاسية</span>
+      </div>
+      <a href="tel:0785494911">0785494911</a>
     </div>
-  </section>
-</main>
+    <div class="copyright">© 2026 أنتيكا ومقتنيات — جميع الحقوق محفوظة</div>
+  </footer>
 
-<footer>
-  <div class="container">
-    <h3>أنْتيكا ومقتنيات</h3>
-    <p>بيع وشراء وصيانة النحاسيات والتحف النحاسية</p>
-    <a href="tel:0785494911">📞 0785494911</a>
-    <p class="copyright">© 2026 جميع الحقوق محفوظة</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
