@@ -1,1 +1,3 @@
-const menu=document.querySelector('.menu'),nav=document.querySelector('#nav');menu?.addEventListener('click',()=>nav.classList.toggle('open'));document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>nav.classList.remove('open'));document.querySelector('#year').textContent=new Date().getFullYear();
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("موقع أنتيكا ومقتنيات يعمل بنجاح.");
+});
